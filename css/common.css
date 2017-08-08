@@ -1,0 +1,49 @@
+
+html,
+body {
+  overflow: hidden;
+  height: 100%;
+}
+body {
+  position: relative;
+}
+.count {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 1rem;
+  overflow: auto;
+  background-color: #f5f5f5;
+  -webkit-overflow-scrolling: touch;
+}
+.foot {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1rem;
+  display: flex;
+  padding: 0 0.2rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  border-top: 0.03rem solid #f1f1f1;
+}
+.foot .select {
+  color: #1296db;
+}
+.foot div {
+  flex: 1;
+  height: 1rem;
+  text-align: center;
+  font-size: 0.18rem;
+}
+.foot div .footIcon span {
+  display: block;
+  font-family: iconfont;
+  line-height: 0.5rem;
+  font-size: 0.5rem;
+  padding: 0.2rem 0 0.02rem 0;
+}

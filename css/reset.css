@@ -1,0 +1,80 @@
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555; font-size: 16px; font-family: PingFangSC-Regular, "Microsoft YaHei", Arial, Helvetica, sans-serif;letter-spacing: 0.01rem; -webkit-text-size-adjust: 100%; }
+input,button{
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+span{
+    -webkit-tap-highlight-color: transparent;
+}
+label{
+    -webkit-tap-highlight-color: transparent;
+}
+h1, h2, h3, h4, h5, h6 { font-weight:normal;}
+a { color:#555; text-decoration:none; -webkit-tap-highlight-color: transparent;}
+a:hover { text-decoration:none;  -webkit-tap-highlight-color: transparent;}
+img { border:none; display: block;-webkit-tap-highlight-color: transparent;}
+ol,ul,li { list-style:none; }
+input, textarea, select, button {-webkit-tap-highlight-color: transparent; font:14px PingFangSC-Medium,sans-serif; border: none; outline: none;background-color: transparent }
+table { border-collapse:collapse; }
+.clearFix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+i {
+    font-style: normal;
+}
+
+/*webkit 兼容处理*/
+*::-webkit-scrollbar {
+    display: none;
+}
+*,
+*：：before,
+
+*；；after{
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:disabled{
+  -webkit-text-fill-color: #333;
+  -webkit-opacity: 1;
+  opacity: 1;
+}
+[contenteditable = "true"], input, textarea {
+    -webkit-user-select: auto!important;
+    -moz-user-select: auto!important;
+    -ms-user-select: auto!important;
+    -o-user-select: auto!important;
+    user-select: auto!important;
+}
+
+/*开启ios点击保存图片*/
+img{
+    -webkit-touch-callout: default;
+    border: none;
+}
+input{
+    color:#222222!important;
+}
+body{
+    background-color: #f5f5f5;
+}
+
+/*去掉滚动条*/
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
